@@ -1,0 +1,27 @@
+.usersPage {
+    padding: 20px;
+    position: relative;
+}
+
+.userCard {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.userPhoto {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.address {
+    color: rgb(97, 97, 97);
+    font-size: 14px;
+}
+
+.selectedBtn {
+    background-color: white;
+    color: black;
+}

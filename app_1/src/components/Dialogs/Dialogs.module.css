@@ -1,0 +1,106 @@
+::-webkit-scrollbar-button {
+    background-repeat: no-repeat;
+    width: 5px;
+    height: 0px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #a5a5a5;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    background-color: #272727;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #272727;
+}
+
+::-webkit-resizer {
+    background-repeat: no-repeat;
+    width: 7px;
+    height: 0px;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+.message {
+    padding: 0 20px;
+    display: flex;
+    margin: 30px 0;
+}
+
+.message img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+.dialogsList {
+    border-right: 1px solid #212529;
+}
+
+.dialogsPage {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.messageBox {
+    position: relative;
+}
+
+.messagesContainer {
+    height: 75vh;
+    padding-bottom: 25vh;
+    padding: 20px;
+    overflow-y: scroll;
+}
+
+.messageForm {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.messageForm textarea {
+    margin: 0 20px 10px;
+    width: 95%;
+    resize: none;
+}
+
+.messageForm button {
+    margin: 0 20px 10px;
+}
+
+.messageItem {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.messageItem img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+.messageItem p {
+    margin: 0;
+}
+
+.messageItem.me {
+    flex-direction: row-reverse;
+}
+
+.messageItem.me img {
+    margin-left: 10px;
+}
