@@ -1,0 +1,5 @@
+{
+    "port": 3001,
+    "jwtSecret": "smbdnctldmthwrldsgnnrllm",
+    "mongoUrl": "mongodb://localhost:27017/reactSociety"
+}
